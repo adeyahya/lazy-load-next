@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <head>
 	<meta charset="UTF-8">
 	<title>LazyLoad</title>
+	<script src="script.js" async defer></script>
 </head>
 <body>
 	<img src="/placeholder.img" data-src="/real-image.img">
