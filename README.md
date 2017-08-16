@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 ```
 `index.html`
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
