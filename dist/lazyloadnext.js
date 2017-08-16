@@ -114,6 +114,7 @@ var LazyLoadNext = function () {
           if (entry.isIntersecting && entry.target.getAttribute('data-src')) {
             entry.target.src = entry.target.getAttribute('data-src');
             entry.target.removeAttribute('data-src');
+            observer.unobserve(entry.target); // remove the listener
           }
         });
       }, {});
