@@ -34,6 +34,7 @@ class LazyLoadNext {
         if (entry.isIntersecting && entry.target.getAttribute('data-src')) {
           entry.target.src = entry.target.getAttribute('data-src');
           entry.target.removeAttribute('data-src');
+          entry.target.classList.remove('lazyload'); // remove lazyload class
           observer.unobserve(entry.target); // remove the listener
         }
       });
