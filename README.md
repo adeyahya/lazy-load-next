@@ -2,7 +2,9 @@
 Lazy Load Image using IntersectionObserver API
 
 ## Usage
+
 Install lazy-load-next
+
 `yarn add lazy-load-next` or `npm install lazy-load-next --save`
 
 `script.js`
